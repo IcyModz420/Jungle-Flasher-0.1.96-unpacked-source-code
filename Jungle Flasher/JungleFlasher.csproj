@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{57FF7AA0-C659-46FF-AF36-29E1137CDC5B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JungleFlasher</RootNamespace>
+    <AssemblyName>JungleFlasher</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>4096</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>JungleFlasher.ico</ApplicationIcon>
+    <StartupObject>&lt;Module&gt;</StartupObject>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.SHDocVw" />
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="dummy\{1910de78-dfe8-43d2-949d-57a8dcd4387b}.cs" />
+    <Compile Include="dummy_ptr\{12b6414a-78cd-41bd-a98b-68a37d6ed336}.cs" />
+    <Compile Include="ns0\Class0.cs" />
+    <Compile Include="ns0\Common_Barcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\Common_Barcode.Designer.cs">
+      <DependentUpon>Common_Barcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\DataBaseView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\DataBaseView.Designer.cs">
+      <DependentUpon>DataBaseView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\Donate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\Donate.Designer.cs">
+      <DependentUpon>Donate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\DumpFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\DumpFile.Designer.cs">
+      <DependentUpon>DumpFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\FixSerial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\FixSerial.Designer.cs">
+      <DependentUpon>FixSerial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\FreeKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\FreeKey.Designer.cs">
+      <DependentUpon>FreeKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\GStruct0.cs" />
+    <Compile Include="ns0\GStruct1.cs" />
+    <Compile Include="ns0\GStruct10.cs" />
+    <Compile Include="ns0\GStruct100.cs" />
+    <Compile Include="ns0\GStruct101.cs" />
+    <Compile Include="ns0\GStruct102.cs" />
+    <Compile Include="ns0\GStruct103.cs" />
+    <Compile Include="ns0\GStruct104.cs" />
+    <Compile Include="ns0\GStruct105.cs" />
+    <Compile Include="ns0\GStruct106.cs" />
+    <Compile Include="ns0\GStruct107.cs" />
+    <Compile Include="ns0\GStruct108.cs" />
+    <Compile Include="ns0\GStruct109.cs" />
+    <Compile Include="ns0\GStruct11.cs" />
+    <Compile Include="ns0\GStruct110.cs" />
+    <Compile Include="ns0\GStruct111.cs" />
+    <Compile Include="ns0\GStruct112.cs" />
+    <Compile Include="ns0\GStruct113.cs" />
+    <Compile Include="ns0\GStruct114.cs" />
+    <Compile Include="ns0\GStruct115.cs" />
+    <Compile Include="ns0\GStruct116.cs" />
+    <Compile Include="ns0\GStruct117.cs" />
+    <Compile Include="ns0\GStruct118.cs" />
+    <Compile Include="ns0\GStruct119.cs" />
+    <Compile Include="ns0\GStruct12.cs" />
+    <Compile Include="ns0\GStruct120.cs" />
+    <Compile Include="ns0\GStruct121.cs" />
+    <Compile Include="ns0\GStruct13.cs" />
+    <Compile Include="ns0\GStruct14.cs" />
+    <Compile Include="ns0\GStruct15.cs" />
+    <Compile Include="ns0\GStruct16.cs" />
+    <Compile Include="ns0\GStruct17.cs" />
+    <Compile Include="ns0\GStruct18.cs" />
+    <Compile Include="ns0\GStruct19.cs" />
+    <Compile Include="ns0\GStruct2.cs" />
+    <Compile Include="ns0\GStruct20.cs" />
+    <Compile Include="ns0\GStruct21.cs" />
+    <Compile Include="ns0\GStruct22.cs" />
+    <Compile Include="ns0\GStruct23.cs" />
+    <Compile Include="ns0\GStruct24.cs" />
+    <Compile Include="ns0\GStruct25.cs" />
+    <Compile Include="ns0\GStruct26.cs" />
+    <Compile Include="ns0\GStruct27.cs" />
+    <Compile Include="ns0\GStruct28.cs" />
+    <Compile Include="ns0\GStruct29.cs" />
+    <Compile Include="ns0\GStruct3.cs" />
+    <Compile Include="ns0\GStruct30.cs" />
+    <Compile Include="ns0\GStruct31.cs" />
+    <Compile Include="ns0\GStruct32.cs" />
+    <Compile Include="ns0\GStruct33.cs" />
+    <Compile Include="ns0\GStruct34.cs" />
+    <Compile Include="ns0\GStruct35.cs" />
+    <Compile Include="ns0\GStruct39.cs" />
+    <Compile Include="ns0\GStruct4.cs" />
+    <Compile Include="ns0\GStruct40.cs" />
+    <Compile Include="ns0\GStruct41.cs" />
+    <Compile Include="ns0\GStruct42.cs" />
+    <Compile Include="ns0\GStruct43.cs" />
+    <Compile Include="ns0\GStruct44.cs" />
+    <Compile Include="ns0\GStruct45.cs" />
+    <Compile Include="ns0\GStruct49.cs" />
+    <Compile Include="ns0\GStruct5.cs" />
+    <Compile Include="ns0\GStruct52.cs" />
+    <Compile Include="ns0\GStruct55.cs" />
+    <Compile Include="ns0\GStruct58.cs" />
+    <Compile Include="ns0\GStruct6.cs" />
+    <Compile Include="ns0\GStruct61.cs" />
+    <Compile Include="ns0\GStruct62.cs" />
+    <Compile Include="ns0\GStruct63.cs" />
+    <Compile Include="ns0\GStruct64.cs" />
+    <Compile Include="ns0\GStruct65.cs" />
+    <Compile Include="ns0\GStruct66.cs" />
+    <Compile Include="ns0\GStruct67.cs" />
+    <Compile Include="ns0\GStruct68.cs" />
+    <Compile Include="ns0\GStruct69.cs" />
+    <Compile Include="ns0\GStruct7.cs" />
+    <Compile Include="ns0\GStruct70.cs" />
+    <Compile Include="ns0\GStruct71.cs" />
+    <Compile Include="ns0\GStruct72.cs" />
+    <Compile Include="ns0\GStruct73.cs" />
+    <Compile Include="ns0\GStruct74.cs" />
+    <Compile Include="ns0\GStruct75.cs" />
+    <Compile Include="ns0\GStruct76.cs" />
+    <Compile Include="ns0\GStruct77.cs" />
+    <Compile Include="ns0\GStruct78.cs" />
+    <Compile Include="ns0\GStruct79.cs" />
+    <Compile Include="ns0\GStruct8.cs" />
+    <Compile Include="ns0\GStruct80.cs" />
+    <Compile Include="ns0\GStruct81.cs" />
+    <Compile Include="ns0\GStruct82.cs" />
+    <Compile Include="ns0\GStruct83.cs" />
+    <Compile Include="ns0\GStruct84.cs" />
+    <Compile Include="ns0\GStruct85.cs" />
+    <Compile Include="ns0\GStruct86.cs" />
+    <Compile Include="ns0\GStruct87.cs" />
+    <Compile Include="ns0\GStruct88.cs" />
+    <Compile Include="ns0\GStruct89.cs" />
+    <Compile Include="ns0\GStruct9.cs" />
+    <Compile Include="ns0\GStruct90.cs" />
+    <Compile Include="ns0\GStruct91.cs" />
+    <Compile Include="ns0\GStruct92.cs" />
+    <Compile Include="ns0\GStruct93.cs" />
+    <Compile Include="ns0\GStruct94.cs" />
+    <Compile Include="ns0\GStruct95.cs" />
+    <Compile Include="ns0\GStruct96.cs" />
+    <Compile Include="ns0\GStruct97.cs" />
+    <Compile Include="ns0\GStruct98.cs" />
+    <Compile Include="ns0\GStruct99.cs" />
+    <Compile Include="ns0\Job_history.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\Job_history.Designer.cs">
+      <DependentUpon>Job_history.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\KeyCR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\KeyCR.Designer.cs">
+      <DependentUpon>KeyCR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\ProjectName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\ProjectName.Designer.cs">
+      <DependentUpon>ProjectName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\Struct0.cs" />
+    <Compile Include="ns0\Struct1.cs" />
+    <Compile Include="ns0\Struct10.cs" />
+    <Compile Include="ns0\Struct100.cs" />
+    <Compile Include="ns0\Struct101.cs" />
+    <Compile Include="ns0\Struct102.cs" />
+    <Compile Include="ns0\Struct103.cs" />
+    <Compile Include="ns0\Struct104.cs" />
+    <Compile Include="ns0\Struct105.cs" />
+    <Compile Include="ns0\Struct106.cs" />
+    <Compile Include="ns0\Struct107.cs" />
+    <Compile Include="ns0\Struct108.cs" />
+    <Compile Include="ns0\Struct109.cs" />
+    <Compile Include="ns0\Struct11.cs" />
+    <Compile Include="ns0\Struct110.cs" />
+    <Compile Include="ns0\Struct111.cs" />
+    <Compile Include="ns0\Struct112.cs" />
+    <Compile Include="ns0\Struct113.cs" />
+    <Compile Include="ns0\Struct114.cs" />
+    <Compile Include="ns0\Struct115.cs" />
+    <Compile Include="ns0\Struct116.cs" />
+    <Compile Include="ns0\Struct117.cs" />
+    <Compile Include="ns0\Struct118.cs" />
+    <Compile Include="ns0\Struct119.cs" />
+    <Compile Include="ns0\Struct12.cs" />
+    <Compile Include="ns0\Struct120.cs" />
+    <Compile Include="ns0\Struct121.cs" />
+    <Compile Include="ns0\Struct122.cs" />
+    <Compile Include="ns0\Struct123.cs" />
+    <Compile Include="ns0\Struct124.cs" />
+    <Compile Include="ns0\Struct125.cs" />
+    <Compile Include="ns0\Struct126.cs" />
+    <Compile Include="ns0\Struct127.cs" />
+    <Compile Include="ns0\Struct128.cs" />
+    <Compile Include="ns0\Struct129.cs" />
+    <Compile Include="ns0\Struct13.cs" />
+    <Compile Include="ns0\Struct130.cs" />
+    <Compile Include="ns0\Struct131.cs" />
+    <Compile Include="ns0\Struct132.cs" />
+    <Compile Include="ns0\Struct14.cs" />
+    <Compile Include="ns0\Struct15.cs" />
+    <Compile Include="ns0\Struct16.cs" />
+    <Compile Include="ns0\Struct17.cs" />
+    <Compile Include="ns0\Struct18.cs" />
+    <Compile Include="ns0\Struct19.cs" />
+    <Compile Include="ns0\Struct2.cs" />
+    <Compile Include="ns0\Struct20.cs" />
+    <Compile Include="ns0\Struct21.cs" />
+    <Compile Include="ns0\Struct22.cs" />
+    <Compile Include="ns0\Struct23.cs" />
+    <Compile Include="ns0\Struct24.cs" />
+    <Compile Include="ns0\Struct25.cs" />
+    <Compile Include="ns0\Struct26.cs" />
+    <Compile Include="ns0\Struct27.cs" />
+    <Compile Include="ns0\Struct28.cs" />
+    <Compile Include="ns0\Struct29.cs" />
+    <Compile Include="ns0\Struct3.cs" />
+    <Compile Include="ns0\Struct30.cs" />
+    <Compile Include="ns0\Struct31.cs" />
+    <Compile Include="ns0\Struct32.cs" />
+    <Compile Include="ns0\Struct33.cs" />
+    <Compile Include="ns0\Struct34.cs" />
+    <Compile Include="ns0\Struct35.cs" />
+    <Compile Include="ns0\Struct36.cs" />
+    <Compile Include="ns0\Struct37.cs" />
+    <Compile Include="ns0\Struct38.cs" />
+    <Compile Include="ns0\Struct39.cs" />
+    <Compile Include="ns0\Struct4.cs" />
+    <Compile Include="ns0\Struct40.cs" />
+    <Compile Include="ns0\Struct41.cs" />
+    <Compile Include="ns0\Struct42.cs" />
+    <Compile Include="ns0\Struct43.cs" />
+    <Compile Include="ns0\Struct44.cs" />
+    <Compile Include="ns0\Struct45.cs" />
+    <Compile Include="ns0\Struct46.cs" />
+    <Compile Include="ns0\Struct47.cs" />
+    <Compile Include="ns0\Struct48.cs" />
+    <Compile Include="ns0\Struct49.cs" />
+    <Compile Include="ns0\Struct5.cs" />
+    <Compile Include="ns0\Struct50.cs" />
+    <Compile Include="ns0\Struct51.cs" />
+    <Compile Include="ns0\Struct52.cs" />
+    <Compile Include="ns0\Struct53.cs" />
+    <Compile Include="ns0\Struct54.cs" />
+    <Compile Include="ns0\Struct55.cs" />
+    <Compile Include="ns0\Struct56.cs" />
+    <Compile Include="ns0\Struct57.cs" />
+    <Compile Include="ns0\Struct58.cs" />
+    <Compile Include="ns0\Struct59.cs" />
+    <Compile Include="ns0\Struct6.cs" />
+    <Compile Include="ns0\Struct60.cs" />
+    <Compile Include="ns0\Struct61.cs" />
+    <Compile Include="ns0\Struct62.cs" />
+    <Compile Include="ns0\Struct63.cs" />
+    <Compile Include="ns0\Struct64.cs" />
+    <Compile Include="ns0\Struct65.cs" />
+    <Compile Include="ns0\Struct66.cs" />
+    <Compile Include="ns0\Struct67.cs" />
+    <Compile Include="ns0\Struct68.cs" />
+    <Compile Include="ns0\Struct69.cs" />
+    <Compile Include="ns0\Struct7.cs" />
+    <Compile Include="ns0\Struct70.cs" />
+    <Compile Include="ns0\Struct71.cs" />
+    <Compile Include="ns0\Struct72.cs" />
+    <Compile Include="ns0\Struct73.cs" />
+    <Compile Include="ns0\Struct74.cs" />
+    <Compile Include="ns0\Struct75.cs" />
+    <Compile Include="ns0\Struct76.cs" />
+    <Compile Include="ns0\Struct77.cs" />
+    <Compile Include="ns0\Struct78.cs" />
+    <Compile Include="ns0\Struct79.cs" />
+    <Compile Include="ns0\Struct8.cs" />
+    <Compile Include="ns0\Struct80.cs" />
+    <Compile Include="ns0\Struct81.cs" />
+    <Compile Include="ns0\Struct82.cs" />
+    <Compile Include="ns0\Struct83.cs" />
+    <Compile Include="ns0\Struct84.cs" />
+    <Compile Include="ns0\Struct85.cs" />
+    <Compile Include="ns0\Struct86.cs" />
+    <Compile Include="ns0\Struct87.cs" />
+    <Compile Include="ns0\Struct88.cs" />
+    <Compile Include="ns0\Struct89.cs" />
+    <Compile Include="ns0\Struct9.cs" />
+    <Compile Include="ns0\Struct90.cs" />
+    <Compile Include="ns0\Struct91.cs" />
+    <Compile Include="ns0\Struct92.cs" />
+    <Compile Include="ns0\Struct93.cs" />
+    <Compile Include="ns0\Struct94.cs" />
+    <Compile Include="ns0\Struct95.cs" />
+    <Compile Include="ns0\Struct96.cs" />
+    <Compile Include="ns0\Struct97.cs" />
+    <Compile Include="ns0\Struct98.cs" />
+    <Compile Include="ns0\Struct99.cs" />
+    <Compile Include="ns0\Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\WorkingFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\WorkingFolder.Designer.cs">
+      <DependentUpon>WorkingFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\Runtime\CompilerServices\SuppressIldasmAttribute.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AxInterop.SHDocVw.dll" />
+    <EmbeddedResource Include="Interop.SHDocVw.dll" />
+    <EmbeddedResource Include="ns0\Common_Barcode.resources" />
+    <EmbeddedResource Include="ns0\DataBaseView.resources" />
+    <EmbeddedResource Include="ns0\Donate.resources" />
+    <EmbeddedResource Include="ns0\DumpFile.resources" />
+    <EmbeddedResource Include="ns0\FixSerial.resources" />
+    <EmbeddedResource Include="ns0\Form1.resources" />
+    <EmbeddedResource Include="ns0\FreeKey.resources" />
+    <EmbeddedResource Include="ns0\Job_history.resources" />
+    <EmbeddedResource Include="ns0\KeyCR.resources" />
+    <EmbeddedResource Include="ns0\ProjectName.resources" />
+    <EmbeddedResource Include="ns0\Welcome.resources" />
+    <EmbeddedResource Include="ns0\WorkingFolder.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
